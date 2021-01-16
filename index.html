@@ -12,46 +12,48 @@
     <title>My Podcast</title>
   </head>
   <body>
-    <header>
-      <nav>
-        <img class="logo" src="assets/logo.svg" alt="Logo" />
-        <div class="navbar">
-          <input type="checkbox" id="toggle" />
-          <label class="menu-icon" for="toggle">&#9776;</label>
-          <label class="menu-icon-mobile" for="toggle">&#10005;</label>
-          <div class="menu">
-            <a href="#episodios">episodios</a>
-            <a href="#about">nosotros</a>
-            <a href="#invitados">entrevistas</a>
-            <a href="#topics">topicos</a>
+    <!-- Navigation bar -->
+    <div class="container1440">
+      <header>
+        <nav>
+          <img class="logo" src="assets/logo.svg" alt="Logo" />
+          <div class="navbar">
+            <input type="checkbox" id="toggle" />
+            <label class="menu-icon" for="toggle">&#9776;</label>
+            <label class="menu-icon-mobile" for="toggle">&#10005;</label>
+            <div class="menu">
+              <a href="#episodios">episodios</a>
+              <a href="#about">nosotros</a>
+              <a href="#invitados">entrevistas</a>
+              <a href="#topics">topicos</a>
+            </div>
           </div>
-        </div>
-      </nav>
-    </header>
+        </nav>
+      </header>
+    </div>
 
+    <!-- main content -->
     <main>
-      <div class="intro title">
-        <h1>
-          Hello&nbsp;<span class="world">world</span
-          ><span class="pale">&nbsp;pale blue dot</span
-          ><span class="dot">.</span>
-        </h1>
-        <p class="intro-description">
-          El portal de podcasts que explora el mundo de la programación y la
-          tecnología. Nuevos episodios, todos los jueves cada 15 días.
-        </p>
+      <div class="container1440">
+        <div class="intro title">
+          <h1>
+            Hello&nbsp;<span class="world">world</span
+            ><span class="pale">&nbsp;pale blue dot</span
+            ><span class="dot">.</span>
+          </h1>
+          <p class="intro-description">
+            El portal de podcasts que explora el mundo de la programación y la
+            tecnología. Nuevos episodios, todos los jueves cada 15 días.
+          </p>
 
-        <button class="intro-btn">Conoce Mas</button>
+          <button class="intro-btn">Conoce Mas</button>
+        </div>
       </div>
-
+      <!-- spotify episodes with edged top and botton borders -->
       <div class="episodes" id="episodios">
         <h2>Episodes</h2>
 
         <div class="spotify">
-          <!-- <img class="spotify-episodes" src="/assets/embed1.png" alt="" />
-          <img class="spotify-episodes" src="/assets/embed2.png" alt="" />
-          <img class="spotify-episodes" src="/assets/embed3.png" alt="" />
-          <img class="spotify-episodes" src="/assets/embed4.png" alt="" /> -->
           <iframe
             src="https://open.spotify.com/embed-podcast/episode/7h86MHdhXKOX5qrPixuOCI"
             frameborder="0"
@@ -79,6 +81,7 @@
         </div>
       </div>
 
+      <!-- on top image with about description -->
       <section class="about" id="about">
         <img src="/assets/phone.png" alt="phone" />
         <div class="about-us">
@@ -96,7 +99,7 @@
           </p>
         </div>
       </section>
-
+      <!-- guests full width gallery -->
       <section class="invitados" id="invitados">
         <div class="title">
           <h2>Invitadas/os estelares</h2>
@@ -117,7 +120,7 @@
           />
         </div>
       </section>
-
+      <!-- topics icon list wit title -->
       <section class="forte-box" id="topics">
         <h2 class="forte-title">Algunos de nuestros temas</h2>
         <div class="forte">
@@ -151,7 +154,7 @@
           </div>
         </div>
       </section>
-
+      <!-- call to action with edged borders -->
       <section class="latest-episodes">
         <div class="content">
           <h2>¿Querés las últimas novedades?</h2>
@@ -159,7 +162,7 @@
         </div>
       </section>
     </main>
-
+    <!-- footer with social icons -->
     <footer class="copyright">
       <div class="copyright-text">
         &copy; 2019_ Hello blue pale dot <a href="#">Made by Rahul</a>
